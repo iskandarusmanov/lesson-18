@@ -1,0 +1,23 @@
+  .header {
+      margin: 0 auto;
+      padding: 0 55px;
+      width: 1330px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .header__menu {
+          display: flex;
+          gap: 37px;
+
+          .nav__item {
+              text-decoration: none;
+              color: aliceblue;
+              font-family: Oswald;
+              font-size: 20px;
+              font-weight: 400;
+              line-height: 30px;
+          }
+      }
+  }

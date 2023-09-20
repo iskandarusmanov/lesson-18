@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Oswald;
+    src: url(/fonts/Oswald-Regular.ttf) format(truetype);
+    font-size: 400;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    color: #000000;
+  }
+  
+  .container {
+    padding: 0 24px;
+    max-width: 1268px;
+    margin: 0 auto;
+  }
+  

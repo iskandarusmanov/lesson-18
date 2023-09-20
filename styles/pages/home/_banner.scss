@@ -1,0 +1,79 @@
+.header__banner {
+   position: relative;
+   margin: 0 auto;
+   padding: 55px 0;
+   width: 1330px;
+   height: 696px;
+   background-image: url(/images/banner-bg.png);
+   background-position: right;
+   background-repeat: no-repeat;
+   background-size: contain;
+
+   .header__title {
+      margin-top: 111px;
+      margin-left: 90px;
+      font-family: Oswald;
+      font-size: 60px;
+      font-weight: 400;
+      line-height: 60px;
+      color: rgba(0, 0, 0, 1);
+   }
+
+   .header__desc {
+      margin-top: 40px;
+      margin-left: 90px;
+      font-family: Oswald;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: rgba(0, 0, 0, 1);
+   }
+   .header__btn{
+      padding: 14px 42px;
+      background: rgba(104, 183, 56, 1);
+      border: none;
+      margin-top: 52px;
+      margin-left: 90px;
+
+      .nav__item {
+         text-decoration: none;
+         color: rgba(0, 255, 255, 1);
+         font-family: Oswald;
+         font-size: 20px;
+         font-weight: 400;
+         line-height: 30px;
+     }
+   }
+   .header__img{
+      position: absolute;
+      top: 143px;
+      right: 330px;
+     }
+}
+//tablet
+@media screen and (min-width: 321px) and (max-width: 720px) {
+   .header__banner {
+     background-image: none;
+   }
+   .header__img{
+      position: static;
+   }
+   .nav__item {
+      text-decoration: none;
+      color: rgba(0, 0, 0, 1);
+      font-family: Oswald;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+  }
+ }
+ 
+ //phone
+@media screen and (min-width: 0px) and (max-width: 320px) {
+   .header__banner {
+      background-position: left;
+     background-size: contain;
+   }
+ }

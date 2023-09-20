@@ -1,0 +1,214 @@
+.main__section {
+    padding: 82px 0 0 0;
+
+    .main--section__row {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        .main--section__card {
+            width: 570px;
+            height: 374px;
+            padding: 40px 52px;
+            background: rgba(242, 242, 242, 1);
+
+            .main--card__title {
+                display: flex;
+                align-items: center;
+                gap: 62px;
+
+                p {
+                    font-family: Oswald;
+                    font-size: 36px;
+                    font-weight: 400;
+                    line-height: 36px;
+                    color: rgba(0, 0, 0, 1);
+                }
+            }
+
+            .main--card__desc {
+                p {
+                    margin-top: 40px;
+                    font-family: Arial;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    color: rgba(0, 0, 0, 1);
+                }
+
+                .main--card__more {
+                    margin-top: 27px;
+                    font-family: Oswald;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+}
+
+.work__part {
+    p {
+        padding-top: 71px;
+        color: $text-color;
+        font-family: Oswald;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 60px;
+    }
+}
+
+.second__row {
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second__card {
+    width: 230px;
+    height: 280px;
+
+    .second__square {
+        align-items: center;
+        margin-top: 40px;
+        width: 80px;
+        height: 80px;
+        border: none;
+        background-color: green;
+    }
+
+    p {
+        z-index: 2;
+        position: absolute;
+        padding-top: 31px;
+        color: #444444;
+        font-family: Arial;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .second__square_icon {
+        padding-top: 25px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.second__card4 {
+    width: 246px;
+    height: 280px;
+
+    .second__square {
+        margin-top: 40px;
+        width: 80px;
+        height: 80px;
+        border: none;
+        background-color: green;
+    }
+
+    p {
+        position: absolute;
+        z-index: 2;
+        padding-top: 31px;
+        color: #444444;
+        font-family: Arial;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .second__square_icon {
+        padding-top: 25px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.primer__title {
+    p {
+        font-family: Oswald;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 60px;
+        margin-bottom: 72px;
+    }
+}
+
+.primer__info {
+    padding: 70px 0;
+    background: rgba(242, 242, 242, 1);
+
+    .primer__desc {
+        p {
+            font-family: Arial;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: rgba(68, 68, 68, 1);
+        }
+    }
+}
+
+.borders {
+    display: flex;
+    gap: 42px;
+    padding-top: 69px;
+}
+    .first__border, .second__border {
+        width: 162px;
+        height: 77px;
+        border-radius: 5px;
+        border: 1px solid #CDCDCD;
+    }
+    .first__border h3, .second__border h3 {
+        padding-top: 15px;
+        font-family: Oswald;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 37px;
+        text-align: center;
+        color: $text-color;
+    }
+    .first__border{
+        position: relative;
+
+    .border__card {
+        position: absolute;
+        top: 69px;
+        left: 23px;
+        padding: 0 8px;
+        width: 117px;
+        height: 14px;
+        background-color: #F2F2F2;
+    }
+}
+
+.second__border{
+    position: relative;
+
+    .border__card2 {
+        position: absolute;
+        top: 69px;
+        left: 13px;
+        padding: 0 5px;
+        width: 138px;
+        height: 14px;
+        background-color: #F2F2F2;
+    }
+}
+    .border__card p {
+        color: #444444;
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+    }
+    .border__card2 p {
+        color: #444444;
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px; 
+    }
