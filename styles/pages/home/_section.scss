@@ -212,3 +212,26 @@
         font-weight: 400;
         line-height: 14px; 
     }
+
+    @media screen and (min-width: 321px) and (max-width: 720px){
+        .main--section__row {
+            margin: 0 auto;
+            display: grid;
+            flex-wrap: wrap;
+            gap: 40px;
+            justify-content: space-between;
+
+    }
+
+    .second__row {
+        padding-top: 32px;
+        display: grid;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    .second__square {
+        margin: 0 auto;
+    }
+}
